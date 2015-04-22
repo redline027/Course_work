@@ -40,7 +40,7 @@ for i in xrange(4):
     src.append([float(f_input.readline()), float(f_input.readline())])
 
 #Homography matrix
-# cx, cy - cell number
+# cx, cy - cell number on chessboard
 cx = 8.0
 cy = 5.0
 src = np.array(src)
